@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/perima/http-api-analytics-ingest/issues"
   },
-  "homepage": "https://github.com/perima/http-api-analytics-ingest/blob/main/README.md",
+  "homepage": "https://github.com/perima/http-api-analytics-ingest",
   "dependencies": {
     "aws-sdk": "^2.1410.0",
     "flatten": "^1.0.3",

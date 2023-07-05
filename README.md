@@ -5,9 +5,9 @@ A simple serverless http API using AWS Lambda and AWS API Gateway. Received anal
 
 # Deploy steps 
 
-1. Setup the lambda function 
+1. Deploy the lambda function 
 
-2. Set up AWS API gateway using the lambda as the integration (sample definition for API gateway below)
+2. Set up AWS API gateway using the lambda as the integration (sample definition for API gateway below).
 
 
 #  AWS API GateWay http definition. 
