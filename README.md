@@ -3,6 +3,13 @@
 A simple serverless AWS http API that stores transmitted messages in S3.
 
 
+# Deploy steps 
+
+1. Setup the lambda function 
+
+2. Set up AWS API gateway using the lambda as the integration (sample definition for API gateway below)
+
+
 #  AWS API GateWay http definition. 
 
 {
