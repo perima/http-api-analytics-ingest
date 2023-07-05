@@ -1,0 +1,23 @@
+{
+  "name": "http-api-ingest-endpoint",
+  "version": "0.0.1",
+  "description": "A simple http API endpoint that stores analytics events received in an Amazon S3 bucket.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perima/http-api-analytics-ingest.git"
+  },
+  "author": "Mav Peri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perima/http-api-analytics-ingest/issues"
+  },
+  "homepage": "https://github.com/perima/http-api-analytics-ingest/blob/main/README.md",
+  "dependencies": {
+    "aws-sdk": "^2.1410.0",
+    "flatten": "^1.0.3",
+    "luxon": "^3.3.0"
+  }
+}
