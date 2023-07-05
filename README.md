@@ -1,6 +1,6 @@
 # http-api-analytics-ingest
 
-A simple serverless AWS http API that stores transmitted messages in S3.
+A simple serverless http API using AWS Lambda and AWS API Gateway. Received analytic events are stored  in S3.
 
 
 # Deploy steps 
@@ -11,6 +11,8 @@ A simple serverless AWS http API that stores transmitted messages in S3.
 
 
 #  AWS API GateWay http definition. 
+
+```
 
 {
   "openapi" : "3.0.1",
@@ -86,3 +88,5 @@ A simple serverless AWS http API that stores transmitted messages in S3.
   },
   "x-amazon-apigateway-importexport-version" : "1.0"
 }
+
+```
